@@ -1,0 +1,17 @@
+Introduction
+============
+So I wanted to make an AdHoc/AP on Windows 8 and someone pointed out that you can have netsh do the lifting [1](http://www.redmondpie.com/how-to-set-up-wireless-ad-hoc-internet-connection-in-windows-8/).
+Also, I didn't want to keep remembering commands, but needed fast/on-the-fly changes to settings.
+Enter: The APMaker Batch Script.
+
+Create/Start
+============
+Run in an Admin CMD.exe: `APMaker.bat <SSID> <Password>`
+
+Status
+======
+Run in CMD.exe: `APStatus.bat`
+
+Stop
+====
+Run in CMD.exe: `APStopA.bat `
